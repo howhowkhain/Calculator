@@ -292,7 +292,7 @@ equality_count = False
 window = tk.Tk()
 window.title("Calculator")
 window.config(background="#3cc1fa")
-image = tk.PhotoImage(file="icons8-calculate-64.png")
+image = tk.PhotoImage(file="calculator-64.png")
 window.tk.call("wm", "iconphoto", window._w, image)
 # window.geometry("300x300+200+300")
 window.resizable(width=False, height=False)
